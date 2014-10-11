@@ -1,0 +1,117 @@
+body { 
+    background: #C9BDA7 ; /* Background color */
+    color: #222;	        /* Foreground color used for text */
+    font-family: Cagliostro; 
+    font-size: 21px; 
+    margin: 20px;	            /* Amount of negative space around the outside of the body */
+    padding: 10px;	            /* Amount of negative space around the inside of the body */
+}
+#header {
+  display: block;
+  width: 100%;
+}
+.fixed{
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+a {
+  color: #56100b;
+  list-style-type: none;  
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: navy;
+}
+#header h1 {
+    margin: 0;
+    padding: 0;
+}
+#header h1 a {
+    background: #C9BDA7 ;
+    color: #222;
+    display: block;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+
+    border-bottom: 1px solid #56100b;
+    background: -moz-linear-gradient(top, #ffffff 0%, #C9BDA7 100%); 
+    background: -webkit-linear-gradient(top, #ffffff 0%, #C9BDA7  100%); 
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+#header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#header ul li a {
+    background-color: #FFFFFF;
+    border: 1px solid #56100b;
+    color: #222222;
+    display: block;
+    text-align: center;
+    font-size: 95%;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+#header ul li a:hover {
+    background-color: #56100b;
+    color: white;
+}
+#header ul li a:active {
+    background-color: red;
+    color: white;
+}
+
+#content {
+    padding-top: 200px;
+    margin: 20px;
+}
+#sidebar {
+    margin: 20px;
+    padding: 40px;
+    font-size: 28px;
+}
+
+#header div.leftButton {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    height: 32px;
+    width: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #56100b;
+    text-shadow: #fff 0px 1px 1px;
+    line-height: 28px;
+    border-width: 0 8px 0 8px;
+    background-image: url(images/menu.png );
+   
+}
+#header div.pressed {
+    top: 8px;
+    left: 11px;
+    height: 32px;
+    width: 32px;
+    background-image: url(images/menu.png );
+}
+.footer {
+    width: 100%;
+}
+.img {
+    display: block;
+    margin: 0;
+    padding-top: 30px;
+}
+
+
